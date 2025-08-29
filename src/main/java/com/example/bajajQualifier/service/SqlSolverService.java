@@ -10,10 +10,10 @@ public class SqlSolverService {
         int lastTwo = Integer.parseInt(digitsOnly.substring(digitsOnly.length() - 2));
 
         if (lastTwo % 2 == 1) {
-            // Question 1 SQL (not for you)
+            // Question 1 SQL 
             return "SELECT ... FROM ...";
         } else {
-            // ✅ Question 2 SQL (your case)
+            // Question 2 SQL 
             return """
                 SELECT 
                     e1.EMP_ID,
